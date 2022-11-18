@@ -12,7 +12,7 @@ class Account:
             return True
     # takes money out of the account, fails to take money if amount is 0 or negative
 
-    def withdraw(self, amount):
+    def withdraw(self, amount: float):
         if amount <= 0:
             return False
         else:
