@@ -1,7 +1,7 @@
 class Account:
     def __init__(self, name: str):
         self.account_name = name
-        self.account_balance = int = 0
+        self.account_balance = 0
     # puts money into the account, fails to add money if amount is 0 or negative
 
     def deposit(self, amount: float):
