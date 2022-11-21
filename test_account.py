@@ -1,4 +1,4 @@
-from Account import *
+from account import *
 
 
 class Test:
@@ -18,6 +18,7 @@ class Test:
 
     def test_deposit(self):
         assert self.account1.deposit(230) == True
+        assert self.account1.get_balance() == 230
         assert self.account2.deposit(-12) == False
         assert self.account1.deposit(0) == False
         assert self.account2.deposit(200021) == True
