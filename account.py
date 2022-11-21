@@ -12,7 +12,7 @@ class Account:
         """
 
         :param amount: The numeric value to be added to the account
-        :return: Whether the transfer was successful
+        :return: Whether the transfer was successful or not
         """
         if amount <= 0:
             return False
